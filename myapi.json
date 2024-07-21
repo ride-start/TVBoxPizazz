@@ -23,7 +23,7 @@
             },
             "jar": "./danmu.jar;md5;3d2afc747cc1af7d1bdf02af7ffbdeab"
         },
-		{
+	{
             "key": "玩偶弹幕",
             "name": "弹幕｜玩偶",
             "type": 3,
