@@ -1,5 +1,5 @@
 {
-    "spider": "./spider.jar;md5;308dabe9c096459415912ff76cd06ed1",
+    "spider": "./spider.jar;md5;c52fb9e051491089b007fea2b3109ee8",
     "wallpaper": "https://api.likepoems.com/img/bing",
     "sites": [
         {
@@ -11,7 +11,7 @@
         },
         {
             "key": "预告",
-            "name": "豆瓣｜预告",
+            "name": "新片｜预告",
             "type": 3,
             "api": "csp_YGP",
             "searchable": 0
@@ -265,7 +265,8 @@
             "ext": {
                 "token": "http://127.0.0.1:9978/file/TVBox/token.txt",
                 "cookie": "http://127.0.0.1:9978/file/TVBox/quark.txt",
-                "uc_cookie": "http://127.0.0.1:9978/file/TVBox/uc.txt"
+                "uc_cookie": "http://127.0.0.1:9978/file/TVBox/uc.txt",
+                "site": "https://libvio.link"
             }
         },
         {
@@ -476,13 +477,6 @@
             "ext": "./JS/茶杯狐.js"
         },
         {
-            "key": "在线之家",
-            "name": "在线｜影视",
-            "type": 3,
-            "api": "./JS/drpy2.min.js",
-            "ext": "./JS/在线之家.js"
-        },
-        {
             "key": "魔力高清",
             "name": "魔力｜影视",
             "type": 3,
@@ -530,13 +524,6 @@
             "type": 3,
             "api": "./JS/drpy2.min.js",
             "ext": "./JS/碟调影视.js"
-        },
-        {
-            "key": "欧帝影院",
-            "name": "欧帝｜影视",
-            "type": 3,
-            "api": "./JS/drpy2.min.js",
-            "ext": "./JS/欧帝影院.js"
         },
         {
             "key": "畅梦影视",
@@ -811,6 +798,13 @@
             ]
         },
         {
+            "key": "56动漫",
+            "name": "56｜动漫",
+            "type": 3,
+            "api": "./JS/drpy2.min.js",
+            "ext": "./JS/56动漫.js"
+        },
+        {
             "key": "58动漫",
             "name": "58｜动漫",
             "type": 3,
@@ -830,6 +824,13 @@
             "type": 3,
             "api": "./JS/drpy2.min.js",
             "ext": "./JS/Anime1.js"
+        },
+        {
+            "key": "动画片",
+            "name": "动画片｜动漫",
+            "type": 3,
+            "api": "./JS/drpy2.min.js",
+            "ext": "./JS/动画片大全.js"
         },
         {
             "key": "路漫漫",
@@ -867,18 +868,11 @@
             "ext": "./JS/异世界.js"
         },
         {
-            "key": "次元城",
-            "name": "次元城｜动漫",
+            "key": "好看动漫",
+            "name": "好看｜动漫",
             "type": 3,
             "api": "./JS/drpy2.min.js",
-            "ext": "./JS/次元城.js"
-        },
-        {
-            "key": "喵物次元",
-            "name": "喵物｜动漫",
-            "type": 3,
-            "api": "./JS/drpy2.min.js",
-            "ext": "./JS/喵物次元.js"
+            "ext": "./JS/好看动漫.js"
         },
         {
             "key": "奇米动漫",
@@ -921,20 +915,6 @@
             "type": 3,
             "api": "./JS/drpy2.min.js",
             "ext": "./JS/大米动漫.js"
-        },
-        {
-            "key": "维奇动漫",
-            "name": "维奇｜动漫",
-            "type": 3,
-            "api": "./JS/drpy2.min.js",
-            "ext": "./JS/维奇动漫.js"
-        },
-        {
-            "key": "暮暮动漫",
-            "name": "暮暮｜动漫",
-            "type": 3,
-            "api": "./JS/drpy2.min.js",
-            "ext": "./JS/暮暮动漫.js"
         },
         {
             "key": "南瓜弹幕",
@@ -996,6 +976,7 @@
                 "token": "http://127.0.0.1:9978/file/TVBox/token.txt",
                 "cookie": "http://127.0.0.1:9978/file/TVBox/quark.txt",
                 "uc_cookie": "http://127.0.0.1:9978/file/TVBox/uc.txt",
+                "site": "https://libvio.link",
                 "danmu": true
             }
         },
@@ -1081,7 +1062,7 @@
             "quickSearch": 1,
             "filterable": 1,
             "ext": {
-                "site": "https://www.yjys02.com",
+                "site": "https://www.yjys05.com",
                 "danmu": true
             }
         },
@@ -1155,7 +1136,7 @@
             "ext": {
                 "token": "http://127.0.0.1:9978/file/TVBox/token.txt",
                 "cookie": "http://127.0.0.1:9978/file/TVBox/quark.txt",
-                "site": "https://tudou.lvdoui.top",
+                "site": "https://yunpan.yunpay.cc",
                 "danmu": true
             }
         },
@@ -1185,7 +1166,7 @@
             "ext": {
                 "token": "http://127.0.0.1:9978/file/TVBox/token.txt",
                 "cookie": "http://127.0.0.1:9978/file/TVBox/quark.txt",
-                "site": "https://duopan.fun",
+                "site": "http://labipan.com",
                 "danmu": true
             }
         },
@@ -1709,6 +1690,11 @@
                     "User-Agent": "okhttp/4.9.1"
                 }
             }
+        },
+        {
+            "name": "推荐2",
+            "type": 1,
+            "url": "http://pan.qiaoji8.com/tvbox/neibu.php?url="
         },
         {
             "name": "线路1",
