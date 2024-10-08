@@ -1,5 +1,5 @@
 {
-    "spider": "./spider.jar;md5;c52fb9e051491089b007fea2b3109ee8",
+    "spider": "./spider.jar;md5;eb7676582d076a5505be5f23530e4f4d",
     "wallpaper": "https://api.likepoems.com/img/bing",
     "sites": [
         {
@@ -1692,9 +1692,9 @@
             }
         },
         {
-            "name": "推荐2",
+            "name": "推荐4K",
             "type": 1,
-            "url": "http://pan.qiaoji8.com/tvbox/neibu.php?url="
+            "url": "http://jx.jwl.icu/jx.php?url="
         },
         {
             "name": "线路1",
@@ -1950,12 +1950,6 @@
             "name": "直播3",
             "type": 0,
             "url": "https://tv.iill.top/m3u/Gather",
-            "playerType": 1
-        },
-        {
-            "name": "直播4",
-            "type": 0,
-            "url": "http://mmitv.top/pltv/merization.php?id=list&user=t0k1b5&token=17af41bb&text=diypbox",
             "playerType": 1
         }
     ],
