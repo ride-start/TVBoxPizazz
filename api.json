@@ -191,15 +191,6 @@
             "filterable": 1
         },
         {
-            "key": "笙歌影视",
-            "name": "笙歌｜APP",
-            "type": 3,
-            "api": "csp_AppYY",
-            "searchable": 1,
-            "quickSearch": 1,
-            "changeable": 1
-        },
-        {
             "key": "采集之王",
             "name": "采集｜合集",
             "type": 3,
@@ -342,15 +333,6 @@
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1
-        },
-        {
-            "key": "看看影视",
-            "name": "看看｜影视",
-            "type": 3,
-            "api": "csp_WebIV",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 0
         },
         {
             "key": "视频库",
@@ -506,16 +488,6 @@
             "type": 3,
             "api": "./JS/drpy2.min.js",
             "ext": "./JS/畅梦影视.js"
-        },
-        {
-            "key": "五五影视",
-            "name": "五五｜影视",
-            "type": 3,
-            "api": "csp_XBPQ",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "ext": "./XBPQ/五五影视.json"
         },
         {
             "key": "子子影视",
@@ -997,6 +969,20 @@
             }
         },
         {
+            "key": "腾讯弹幕",
+            "name": "腾讯｜弹幕",
+            "type": 3,
+            "api": "./JS/drpy2.min.js",
+            "ext": "./JS/腾讯弹幕.js"
+        },
+        {
+            "key": "优酷弹幕",
+            "name": "优酷｜弹幕",
+            "type": 3,
+            "api": "./JS/drpy2.min.js",
+            "ext": "./JS/优酷弹幕.js"
+        },
+        {
             "key": "完美弹幕",
             "name": "完美｜弹幕",
             "type": 3,
@@ -1009,13 +995,6 @@
             "type": 3,
             "api": "./JS/drpy2.min.js",
             "ext": "./JS/悠悠弹幕.js"
-        },
-        {
-            "key": "星河弹幕",
-            "name": "星河｜弹幕",
-            "type": 3,
-            "api": "./JS/drpy2.min.js",
-            "ext": "./JS/星河弹幕.js"
         },
         {
             "key": "小熊弹幕",
@@ -1037,6 +1016,13 @@
             "type": 3,
             "api": "./JS/drpy2.min.js",
             "ext": "./JS/小虎斑弹幕.js"
+        },
+        {
+            "key": "素白白弹幕",
+            "name": "素白白｜弹幕",
+            "type": 3,
+            "api": "./JS/drpy2.min.js",
+            "ext": "./JS/素白白弹幕.js"
         },
         {
             "key": "三六零弹幕",
@@ -1075,18 +1061,6 @@
             }
         },
         {
-            "key": "JOJO弹幕",
-            "name": "JOJO｜弹幕",
-            "type": 3,
-            "api": "csp_Jiohub",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "ext": {
-                "danmu": true
-            }
-        },
-        {
             "key": "荐片弹幕",
             "name": "荐片｜弹幕",
             "type": 3,
@@ -1111,6 +1085,13 @@
                 "site": "https://www.yjys05.com",
                 "danmu": true
             }
+        },
+        {
+            "key": "四维空间弹幕",
+            "name": "四维空间｜4K弹幕",
+            "type": 3,
+            "api": "./JS/drpy2.min.js",
+            "ext": "./JS/四维空间弹幕.js"
         },
         {
             "key": "玩偶弹幕",
@@ -1750,6 +1731,19 @@
                     "DJWX",
                     "DJWT",
                     "duanju"
+                ],
+                "header": {
+                    "User-Agent": "Dalvik/2.1.0"
+                }
+            }
+        },
+        {
+            "name": "BBA专线",
+            "type": "1",
+            "url": "http://43.248.100.147:6068/bba/bbajson.php?url=",
+            "ext": {
+                "flag": [
+                    "BBA"
                 ],
                 "header": {
                     "User-Agent": "Dalvik/2.1.0"
