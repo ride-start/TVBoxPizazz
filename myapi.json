@@ -5,7 +5,7 @@
     "sites": [
         {
             "key": "豆瓣",
-            "name": "豆瓣｜首页 | 250108",
+            "name": "豆瓣｜首页 | 250109",
             "type": 3,
             "api": "csp_Douban",
             "searchable": 0
@@ -1735,7 +1735,7 @@
             "searchable": 0,
             "changeable": 0,
             "indexs": 0,
-            "ext": "https://ghproxy.net/https://raw.githubusercontent.com/PizazzGY/Share/main/market.json"
+            "ext": "https://github.moeyy.xyz/https://raw.githubusercontent.com/PizazzGY/Share/main/market.json"
         },
         {
             "key": "push_agent",
