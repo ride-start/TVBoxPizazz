@@ -10,6 +10,16 @@
             "api": "csp_Douban",
             "searchable": 0
         },
+		{
+            "key": "检查更新",
+            "name": "检查｜更新",
+            "type": 3,
+            "api": "csp_Market",
+            "searchable": 0,
+            "changeable": 0,
+            "indexs": 0,
+            "ext": "https://github.moeyy.xyz/https://raw.githubusercontent.com/PizazzGY/Share/main/market.json"
+        },
         {
             "key": "预告",
             "name": "新片｜预告",
@@ -1708,17 +1718,6 @@
             "searchable": 1,
             "changeable": 0,
             "jar": "./wex.jar"
-        },
-        {
-            "key": "版本信息",
-            "name": "版本｜信息",
-            "type": 3,
-            "api": "csp_Market",
-            "searchable": 0,
-            "changeable": 0,
-            "indexs": 0,
-            "ext": "http://域名/tv2/get.php?url=https://9877.kstore.space/Market/market.json",
-            "jar": "http://域名/tv2/spider.jar"
         },
         {
             "key": "push_agent",
